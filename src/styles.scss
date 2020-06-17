@@ -1,0 +1,95 @@
+
+@import "./theme.scss";
+
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; width: 100%; }
+body { margin: 0; font-family: bebas-neue-rounded, "Helvetica Neue", sans-serif; }
+ 
+.flex-space-between {
+  justify-content: space-between;
+}
+.font-reg .mat-toolbar{
+  height: 13vh;
+}
+.font-reg .mat-toolbar a {
+  font-size: 1.5em;
+}
+.font-reg .mat-toolbar button {
+  font-size: 1.4em;
+}
+.font-reg .mat-toolbar h1 {
+  font-size: 1.6em;
+}
+.opaq{
+  z-index: 999;
+  opacity: 1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+
+}
+.profile-img-topbar{
+  height:60px;
+  width:60px;
+  margin-left: 16px;
+  border-radius: 50%;
+}
+.font-reg .mat-toolbar {
+  position: fixed;
+  z-index: 999;
+  @include mat-elevation(4);
+}
+.font-reg .mat-toolbar .login-btn {
+  background-color: #0ebaae;
+  color:#fff;
+  padding: 16px;
+  padding-left: 40px;
+  padding-right:40px;
+  border-radius: 50px;
+}
+.topnav-btn{
+  height: 70px;
+  
+}
+.menu-spacer{
+  vertical-align: center;
+}
+
+.nav-logo {
+  height:80px;
+  margin-right:0;
+  padding-left: 16px;
+}
+@media (max-width:860px) {
+  .nav-logo{
+    height: 50px;
+    margin-right:0;
+    padding-left: 0px;
+  }
+  .font-reg .mat-toolbar{
+    height: 75px;
+  }
+  .font-reg .mat-toolbar a {
+    font-size: 0.8em;
+  }
+  .font-reg .mat-toolbar button {
+    font-size: 0.8em;
+  }
+  .font-reg .mat-toolbar h1 {
+    font-size: 0.8em;
+  }
+  .font-reg .mat-button-base{
+    padding: 8px;
+  }
+  .topnav-btn{
+    height: 40px; 
+  }
+  .profile-img-topbar{
+    height:30px;
+    width:30px;
+    margin-left: 0px;
+    border-radius: 50%;
+  }
+}
+
