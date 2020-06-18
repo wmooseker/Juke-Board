@@ -1,0 +1,56 @@
+@import "src/theme.scss";
+
+.login-pg{
+    padding-top: 13vh;
+    background-color: #0ebaae;
+}
+.login-pg-content{
+    text-align: center;
+    padding-bottom: 40vh;
+
+}
+.login-pg .back-btn {
+    font-size: 40px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: 75px;
+    width: 75px;
+}
+.signin-logo{
+    border: solid 3px;
+    border-radius: 50px;
+    @include mat-elevation(4);
+    display: inline;
+}
+// .login-btn-content span{
+//     background-image: url('src/assets/logo-main.png');
+//     background-size: 100%;
+//     height: 100px;
+// }
+.login-title {
+    font-size: 120px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    margin: 0;
+    align-content: center;
+}
+
+.login-options-list .mat-button {
+    font-size: 1.5rem;
+    padding: 20px;
+
+    width: 270px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.login-options-list .login-btn {
+    display: inline-block;
+}
+.login-pg-content a{
+    color: white;
+}
+.login-pg-content a:hover{
+    color: #f9d66f;
+}

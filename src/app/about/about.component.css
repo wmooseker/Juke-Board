@@ -1,0 +1,14 @@
+.about-pg{
+    padding-top: 13vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-bottom: 300px;
+}
+.about-title {
+    font-size: 90px ;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+.about-title #green-txt {
+    color: #0EBAAE;
+}

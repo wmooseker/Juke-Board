@@ -1,1 +1,19 @@
-<p>login-page works!</p>
+<div class="login-pg" >
+    <button routerLink="/" class="back-btn" mat-fab color="primary" aria-label="button for back to home screen">
+        <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+    <div class="login-pg-content">
+        <!-- add logo later -->
+        
+        <h1 class="login-title"><img class="signin-logo"src="./assets/logo-main.png"> Sign In</h1>
+        <div class="login-options-list">
+            <button class="google-login-btn login-btn" (click)="auth.googleSignIn()" mat-button routerLink='/'>Sign in with Google</button>
+        </div>
+        <div class="login-options-list">
+            <button class="facebook-login-btn login-btn"  mat-button routerLink='/'>Sign in with Facebook</button>
+        </div>
+        <div>
+            <h3>Don't have an account? Click <a routerLink='/'>here</a> to sign up, it's free!</h3>
+        </div>
+    </div>
+</div>

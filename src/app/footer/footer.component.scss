@@ -1,6 +1,54 @@
 .footer-content {
-    
-
+    display: flex;
     background-color: #F9D66F;
-    height: 480px;
+
+}
+.footer-left{
+    flex:.6;
+}
+.footer-right{
+    flex:1;
+}
+.footer-right strong{
+    display: block;
+}
+input{
+    display: block;
+}
+.footer-left{
+    padding-left: 65px;
+    padding-bottom: 55px;
+}
+.footer-left .mat-form-field {
+    display: inline-block;
+}
+.footer-left input{
+    margin-top: 8px;
+}
+.footer-left textarea{
+    margin-top: 8px;
+}
+.footer-left button{
+    display: block;
+    margin-top: 8px;
+}
+.footer-left p {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.footer-left .comments-field{
+    display: block;
+    z-index: 999;
+
+}
+.footer-left .name-field{
+    margin-top: 16px;
+}
+.footer-left .mat-button {
+    background-color: #0ebaae;
+    width: stretch;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.3em;
+    border-radius: 20px ;
 }
